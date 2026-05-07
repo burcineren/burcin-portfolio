@@ -4,7 +4,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, useScroll, useMotionValueEvent } from 'motion/react';
-import { Menu, X, Github, Linkedin, Globe, Coffee } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Globe, Coffee, Twitter, Instagram } from 'lucide-react';
 
 import { siteConfig } from '@/config/site.config';
 import { cn } from '@/lib/utils';
@@ -19,6 +19,8 @@ const iconMap = {
   linkedin: Linkedin,
   globe: Globe,
   coffee: Coffee,
+  twitter: Twitter,
+  instagram: Instagram,
 };
 
 export function Navbar() {
