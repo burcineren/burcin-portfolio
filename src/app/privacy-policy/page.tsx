@@ -34,12 +34,10 @@ export default function PrivacyPolicy() {
             described herein.
           </p>
           <p className="mb-4 text-sm">
-            This Policy also applies to muhammadfiaz.com, fiaz.dev and any
+            This Policy also applies to burcineren.com and any
             other websites, domains, applications, services, products, or
-            digital properties owned, operated, or offered by Muhammad Fiaz
-            (personally) or Fiaz Technologies. For clarity, references to
-            &quot;we&quot;, &quot;us&quot; or &quot;our&quot; in this Policy include both
-            Muhammad Fiaz and Fiaz Technologies where applicable.
+            digital properties owned, operated, or offered by Burçin Eren personally. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include
+            Burçin Eren where applicable.
           </p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>

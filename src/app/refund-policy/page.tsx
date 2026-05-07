@@ -24,7 +24,7 @@ export default function RefundPolicy() {
           <div className="text-base lg:text-lg space-y-4">
           <p className="text-sm text-muted-foreground mb-4">Last updated: August 20, 2025.</p>
 
-          <p className="mb-4">This Refund Policy applies to purchases and services made through muhammadfiaz.com and fiaz.dev (Fiaz Technologies) and to any related offerings or services provided by Muhammad Fiaz personally or by Fiaz Technologies. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include both Muhammad Fiaz and Fiaz Technologies where applicable.</p>
+          <p className="mb-4">This Refund Policy applies to purchases and services made through burcineren.dev and to any related offerings or services provided by Burçin Eren personally. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include Burçin Eren where applicable.</p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>
           <p className="mb-2 text-sm">We do not collect personal details about you unless it is necessary to provide a service you requested, required by law, or you voluntarily provide them.</p>

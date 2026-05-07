@@ -24,8 +24,8 @@ export default function TermsOfService() {
           <div className="text-base lg:text-lg space-y-4">
           <p className="text-sm text-muted-foreground mb-4">Last updated: August 20, 2025.</p>
 
-          <p className="mb-4">These Terms of Service (&quot;Terms&quot;) govern your access to and use of muhammadfiaz.com and fiaz.dev (the &quot;Sites&quot;), owned and operated by Fiaz Technologies (&quot;we&quot;, &quot;us&quot;). By accessing or using the Sites or purchasing services you agree to be bound by these Terms and any separate agreement you enter into with us.</p>
-          <p className="mb-4 text-sm">These Terms also apply to any other websites, domains, applications, services, products, or digital properties owned, operated, or offered by Muhammad Fiaz (personally) or Fiaz Technologies. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include both Muhammad Fiaz and Fiaz Technologies where applicable.</p>
+          <p className="mb-4">These Terms of Service (&quot;Terms&quot;) govern your access to and use of burcineren.dev (the &quot;Site&quot;), owned and operated by Burçin Eren (&quot;we&quot;, &quot;us&quot;). By accessing or using the Site or purchasing services you agree to be bound by these Terms and any separate agreement you enter into with us.</p>
+          <p className="mb-4 text-sm">These Terms also apply to any other websites, domains, applications, services, products, or digital properties owned, operated, or offered by Burçin Eren personally. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include Burçin Eren where applicable.</p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>
           <p className="mb-2 text-sm">We do not collect personal details about you unless it is necessary to provide a service you requested, required by law, or you voluntarily provide them.</p>
