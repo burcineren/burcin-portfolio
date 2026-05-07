@@ -17,13 +17,13 @@ export function AboutHeader() {
           About Me
         </Badge>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl mb-6">
-          Muhammad{' '}
+          Burçin{' '}
           <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-            Fiaz
+            Eren
           </span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Full Stack Developer passionate about creating innovative solutions that bridge the gap between complex technology and user-friendly experiences.
+          Frontend Developer passionate about creating innovative solutions that bridge the gap between complex technology and user-friendly experiences.
         </p>
       </motion.div>
     </div>

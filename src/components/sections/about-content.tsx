@@ -32,17 +32,17 @@ export function AboutContent() {
               <div className="absolute bottom-0 right-0 w-[180px] h-[180px] bg-gradient-to-br from-secondary/30 to-transparent rounded-lg blur-xl opacity-30 dark:opacity-50" />
             </div>
           </div>
-          <div className="text-center text-3xl font-extrabold text-primary mt-4">Muhammad Fiaz</div>
+          <div className="text-center text-3xl font-extrabold text-primary mt-4">Burçin Eren</div>
         </CardHeader>
         <CardContent className="space-y-4 relative z-10">
           <p className="text-muted-foreground leading-relaxed">
-            Hi, I&apos;m Muhammad Fiaz—a passionate full-stack developer and SaaS enthusiast dedicated to building modern, scalable web applications. With a strong foundation in TypeScript, React, and Next.js, I thrive on transforming ideas into beautiful, performant products that delight users and drive business growth.
+            I develop modern and scalable web applications in the Frontend field using React, Angular, and Vue.js technologies. I create strong, sustainable code structures with TypeScript and design reusable UI components.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            My journey in tech began with a curiosity for how things work and a drive to solve real-world problems. Over the years, I&apos;ve collaborated with startups and global teams, delivering robust solutions in e-commerce, productivity, and developer tooling. I believe in clean code, thoughtful design, and continuous learning.
+            With the experience I have gained in e-commerce platforms and corporate projects, I focus on enhancing user experience and improving performance. I optimize data management with libraries like React Query and pass on clean code and best practice standards to teams.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            When I&apos;m not coding, you&apos;ll find me exploring new frameworks, contributing to open source, or sharing insights with the developer community. Let&apos;s connect and build something amazing together!
+            I am a software developer who is open to innovative technologies, loves continuous learning, and prioritizes team success.
           </p>
         </CardContent>
     </Card>

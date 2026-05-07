@@ -52,7 +52,7 @@ export function HeroSection() {
                 <span className="block">{siteConfig.siteName}</span>
             </h1>
               <p className="mx-auto max-w-2xl sm:max-w-3xl text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-muted-foreground leading-relaxed px-4 sm:px-0">
-                I Build Next-Generation Technologies
+                Frontend Developer specializing in React, Angular, and Vue.js
               </p>
 
           </div>
