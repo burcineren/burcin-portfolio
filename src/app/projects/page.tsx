@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import { ProjectsGrid } from '@/components/sections/projects-grid';
 import { ProjectsHeader } from '@/components/sections/projects-header';
+import { FeaturedProjects } from '@/components/sections/featured-projects';
 import { siteConfig } from '@/config/site.config';
 
 export const metadata = {
@@ -13,6 +14,13 @@ export default function ProjectsPage() {
     <div className="min-h-screen py-16">
       <div className="mx-auto max-w-7xl px-6 mt-16 md:mt-24">
         <ProjectsHeader />
+        
+        <FeaturedProjects />
+
+        <div className="flex items-center gap-2 mb-8 border-t pt-16">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-muted-foreground">All Repositories</h2>
+        </div>
+
         <Suspense fallback={<ProjectsLoading />}>
           <ProjectsGrid />
         </Suspense>

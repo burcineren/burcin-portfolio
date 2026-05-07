@@ -299,6 +299,10 @@ export function ProjectsGrid() {
                   className="object-cover w-full h-full rounded-t-xl"
                   priority={index < 4}
                   unoptimized
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop";
+                  }}
                 />
               </div>
               <CardHeader className="relative space-y-4 flex-1">

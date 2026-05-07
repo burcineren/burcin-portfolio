@@ -23,9 +23,9 @@ export function ProjectsHeader() {
           </span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          A collection of projects that showcase my skills in full-stack development, 
-          machine learning, and open source contributions. Each project represents 
-          a journey of learning and innovation.
+          A collection of projects that showcase my expertise in .NET, modern frontend frameworks, 
+          and open source contributions. Each repository represents a journey of problem-solving 
+          and technical excellence.
         </p>
       </motion.div>
       

@@ -21,23 +21,21 @@ interface GitHubRepo {
 export async function GET() {
   try {
     const githubToken = process.env.GITHUB_TOKEN;
-    const githubUsername = process.env.GITHUB_USERNAME || 'muhammad-fiaz';
-    
-    if (!githubToken) {
-      return NextResponse.json(
-        { error: 'GitHub token not configured' },
-        { status: 500 }
-      );
+    const githubUsername = process.env.GITHUB_USERNAME || 'burcineren';
+
+    const headers: Record<string, string> = {
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'Portfolio-App',
+    };
+
+    if (githubToken) {
+      headers['Authorization'] = `token ${githubToken}`;
     }
 
     const response = await fetch(
       `https://api.github.com/users/${githubUsername}/repos?sort=updated&per_page=20&type=owner`,
       {
-        headers: {
-          'Authorization': `token ${githubToken}`,
-          'Accept': 'application/vnd.github.v3+json',
-          'User-Agent': 'Portfolio-App',
-        },
+        headers,
         next: {
           revalidate: 3600, // Cache for 1 hour
         },
