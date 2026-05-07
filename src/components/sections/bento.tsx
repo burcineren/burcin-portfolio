@@ -11,7 +11,6 @@ import {
   Github, 
   Linkedin, 
   Mail,
-  Languages,
   Layers,
   Database,
   Cloud
